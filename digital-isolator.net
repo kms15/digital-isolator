@@ -1,0 +1,924 @@
+# EESchema Netlist Version 1.1 created  Thu 08 Dec 2011 04:40:07 AM UTC
+(
+ ( /4EE015D2 $noname  RR3 100k {Lib=R_BUS8}
+  (    1 ? )
+  (    2 /IN13 )
+  (    3 /IN15 )
+  (    4 /IN17 )
+  (    5 /GND_IN )
+  (    6 ? )
+  (    7 /IN18 )
+  (    8 /IN16 )
+  (    9 /IN14 )
+  (   10 /GND_IN )
+ )
+ ( /4EE01536 $noname  RR2 100k {Lib=R_BUS8}
+  (    1 ? )
+  (    2 /IN7 )
+  (    3 /IN9 )
+  (    4 /IN11 )
+  (    5 /GND_IN )
+  (    6 ? )
+  (    7 /IN12 )
+  (    8 /IN10 )
+  (    9 /IN8 )
+  (   10 /GND_IN )
+ )
+ ( /4EE0143C $noname  RR1 100k {Lib=R_BUS8}
+  (    1 ? )
+  (    2 /IN1 )
+  (    3 /IN3 )
+  (    4 /IN5 )
+  (    5 /GND_IN )
+  (    6 ? )
+  (    7 /IN6 )
+  (    8 /IN4 )
+  (    9 /IN2 )
+  (   10 /GND_IN )
+ )
+ ( /4EDFF93E $noname  U6 TPS7A49XX {Lib=TPS7A49XX}
+  (    1 /3V3_ISO )
+  (    2 N-000122 )
+  (    3 ? )
+  (    4 /GND_ISO )
+  (    5 /9V_ISO )
+  (    6 N-000118 )
+  (    7 ? )
+  (    8 /9V_ISO )
+  (    9 /GND_ISO )
+ )
+ ( /4EDFF93D $noname  C22 10nF {Lib=C}
+  (    1 /3V3_ISO )
+  (    2 N-000122 )
+ )
+ ( /4EDFF93C $noname  C24 10uF {Lib=C}
+  (    1 /3V3_ISO )
+  (    2 /GND_ISO )
+ )
+ ( /4EDFF93B $noname  C18 10uF {Lib=C}
+  (    1 /9V_ISO )
+  (    2 /GND_ISO )
+ )
+ ( /4EDFF93A $noname  C20 10nF {Lib=C}
+  (    1 N-000118 )
+  (    2 /GND_ISO )
+ )
+ ( /4EDFF939 $noname  R3 68.1k {Lib=R}
+  (    1 /3V3_ISO )
+  (    2 N-000122 )
+ )
+ ( /4EDFF938 $noname  R4 39.2k {Lib=R}
+  (    1 N-000122 )
+  (    2 /GND_ISO )
+ )
+ ( /4EDFDBBF $noname  R2 39.2k {Lib=R}
+  (    1 N-000032 )
+  (    2 /GND_ISO )
+ )
+ ( /4EDFDBB9 $noname  R1 124k {Lib=R}
+  (    1 /5V_ISO )
+  (    2 N-000032 )
+ )
+ ( /4EDFDBA9 $noname  C19 10nF {Lib=C}
+  (    1 N-000037 )
+  (    2 /GND_ISO )
+ )
+ ( /4EDFDBA6 $noname  C17 10uF {Lib=C}
+  (    1 /9V_ISO )
+  (    2 /GND_ISO )
+ )
+ ( /4EDFDB9B $noname  C23 10uF {Lib=C}
+  (    1 /5V_ISO )
+  (    2 /GND_ISO )
+ )
+ ( /4EDFDB8D $noname  C21 10nF {Lib=C}
+  (    1 /5V_ISO )
+  (    2 N-000032 )
+ )
+ ( /4EDFDA46 $noname  U5 TPS7A49XX {Lib=TPS7A49XX}
+  (    1 /5V_ISO )
+  (    2 N-000032 )
+  (    3 ? )
+  (    4 /GND_ISO )
+  (    5 /9V_ISO )
+  (    6 N-000037 )
+  (    7 ? )
+  (    8 /9V_ISO )
+  (    9 /GND_ISO )
+ )
+ ( /4EDFCAA2 $noname  P3 CONN_2 {Lib=CONN_2}
+  (    1 N-000063 )
+  (    2 /9V_ISO )
+ )
+ ( /4EDFCA92 $noname  P2 CONN_2 {Lib=CONN_2}
+  (    1 /5V_IN )
+  (    2 N-000064 )
+ )
+ ( /4EDEE5CB $noname  P5 CONN_20 {Lib=CONN_20}
+  (    1 /GND_ISO )
+  (    2 /VCC_ISO )
+  (    3 /OUT1 )
+  (    4 /OUT2 )
+  (    5 /OUT3 )
+  (    6 /OUT4 )
+  (    7 /OUT5 )
+  (    8 /OUT6 )
+  (    9 /OUT7 )
+  (   10 /OUT8 )
+  (   11 /OUT9 )
+  (   12 /OUT10 )
+  (   13 /OUT11 )
+  (   14 /OUT12 )
+  (   15 /IN13 )
+  (   16 /IN14 )
+  (   17 /IN15 )
+  (   18 /IN16 )
+  (   19 /IN17 )
+  (   20 /IN18 )
+ )
+ ( /4EDEE4CF $noname  P4 CONN_4 {Lib=CONN_4}
+  (    1 /GND_ISO )
+  (    2 /VCC_ISO )
+  (    3 /5V_ISO )
+  (    4 /3V3_ISO )
+ )
+ ( /4EDEE3DF $noname  P6 CONN_3 {Lib=CONN_3}
+  (    1 /5V_ISO )
+  (    2 /VCC_ISO )
+  (    3 /3V3_ISO )
+ )
+ ( /4EDEE1F1 $noname  P1 CONN_20 {Lib=CONN_20}
+  (    1 /GND_IN )
+  (    2 /5V_IN )
+  (    3 /IN1 )
+  (    4 /IN2 )
+  (    5 /IN3 )
+  (    6 /IN4 )
+  (    7 /IN5 )
+  (    8 /IN6 )
+  (    9 /IN7 )
+  (   10 /IN8 )
+  (   11 /IN9 )
+  (   12 /IN10 )
+  (   13 /IN11 )
+  (   14 /IN12 )
+  (   15 /OUT13 )
+  (   16 /OUT14 )
+  (   17 /OUT15 )
+  (   18 /OUT16 )
+  (   19 /OUT17 )
+  (   20 /OUT18 )
+ )
+ ( /4EDEDFC5 $noname  C5 1uF {Lib=C}
+  (    1 /5V_IN )
+  (    2 /GND_IN )
+ )
+ ( /4EDEDFC4 $noname  C8 0.1uF {Lib=C}
+  (    1 /5V_IN )
+  (    2 /GND_IN )
+ )
+ ( /4EDEDFC3 $noname  C14 1uF {Lib=C}
+  (    1 /VCC_ISO )
+  (    2 /GND_ISO )
+ )
+ ( /4EDEDFC2 $noname  C11 0.1uF {Lib=C}
+  (    1 /VCC_ISO )
+  (    2 /GND_ISO )
+ )
+ ( /4EDEDFC1 $noname  RP3 100 {Lib=R_PACK8}
+  (    1 ? )
+  (    2 /OUT13 )
+  (    3 /OUT14 )
+  (    4 /OUT15 )
+  (    5 /OUT16 )
+  (    6 /OUT17 )
+  (    7 /OUT18 )
+  (    8 ? )
+  (    9 ? )
+  (   10 N-000100 )
+  (   11 N-000099 )
+  (   12 N-000098 )
+  (   13 N-000097 )
+  (   14 N-000096 )
+  (   15 N-000086 )
+  (   16 ? )
+ )
+ ( /4EDEDFC0 $noname  RP6 100 {Lib=R_PACK8}
+  (    1 ? )
+  (    2 N-000094 )
+  (    3 N-000093 )
+  (    4 N-000092 )
+  (    5 N-000091 )
+  (    6 N-000090 )
+  (    7 N-000089 )
+  (    8 ? )
+  (    9 ? )
+  (   10 /IN18 )
+  (   11 /IN17 )
+  (   12 /IN16 )
+  (   13 /IN15 )
+  (   14 /IN14 )
+  (   15 /IN13 )
+  (   16 ? )
+ )
+ ( /4EDEDFBF $noname  U4 SI8660 {Lib=SI8660}
+  (    1 /VCC_ISO )
+  (    2 N-000089 )
+  (    3 N-000090 )
+  (    4 N-000091 )
+  (    5 N-000092 )
+  (    6 N-000093 )
+  (    7 N-000094 )
+  (    8 /GND_ISO )
+  (    9 /GND_IN )
+  (   10 N-000086 )
+  (   11 N-000096 )
+  (   12 N-000097 )
+  (   13 N-000098 )
+  (   14 N-000099 )
+  (   15 N-000100 )
+  (   16 /5V_IN )
+ )
+ ( /4EDEDFAF $noname  U3 SI8660 {Lib=SI8660}
+  (    1 /5V_IN )
+  (    2 N-000110 )
+  (    3 N-000109 )
+  (    4 N-000105 )
+  (    5 N-000108 )
+  (    6 N-000107 )
+  (    7 N-000106 )
+  (    8 /GND_IN )
+  (    9 /GND_ISO )
+  (   10 N-000083 )
+  (   11 N-000082 )
+  (   12 N-000081 )
+  (   13 N-000080 )
+  (   14 N-000077 )
+  (   15 N-000079 )
+  (   16 /VCC_ISO )
+ )
+ ( /4EDEDFAE $noname  RP5 100 {Lib=R_PACK8}
+  (    1 ? )
+  (    2 N-000079 )
+  (    3 N-000077 )
+  (    4 N-000080 )
+  (    5 N-000081 )
+  (    6 N-000082 )
+  (    7 N-000083 )
+  (    8 ? )
+  (    9 ? )
+  (   10 /OUT12 )
+  (   11 /OUT11 )
+  (   12 /OUT10 )
+  (   13 /OUT9 )
+  (   14 /OUT8 )
+  (   15 /OUT7 )
+  (   16 ? )
+ )
+ ( /4EDEDFAD $noname  RP2 100 {Lib=R_PACK8}
+  (    1 ? )
+  (    2 /IN7 )
+  (    3 /IN8 )
+  (    4 /IN9 )
+  (    5 /IN10 )
+  (    6 /IN11 )
+  (    7 /IN12 )
+  (    8 ? )
+  (    9 ? )
+  (   10 N-000106 )
+  (   11 N-000107 )
+  (   12 N-000108 )
+  (   13 N-000105 )
+  (   14 N-000109 )
+  (   15 N-000110 )
+  (   16 ? )
+ )
+ ( /4EDEDFAC $noname  C10 0.1uF {Lib=C}
+  (    1 /VCC_ISO )
+  (    2 /GND_ISO )
+ )
+ ( /4EDEDFAB $noname  C13 1uF {Lib=C}
+  (    1 /VCC_ISO )
+  (    2 /GND_ISO )
+ )
+ ( /4EDEDFAA $noname  C7 0.1uF {Lib=C}
+  (    1 /5V_IN )
+  (    2 /GND_IN )
+ )
+ ( /4EDEDFA9 $noname  C4 1uF {Lib=C}
+  (    1 /5V_IN )
+  (    2 /GND_IN )
+ )
+ ( /4EDEDC47 $noname  C2 1uF {Lib=C}
+  (    1 N-000064 )
+  (    2 /GND_IN )
+ )
+ ( /4EDEDC3C $noname  C15 1uF {Lib=C}
+  (    1 N-000063 )
+  (    2 /GND_ISO )
+ )
+ ( /4EDEDC18 $noname  C16 10uF {Lib=C}
+  (    1 N-000063 )
+  (    2 /GND_ISO )
+ )
+ ( /4EDEDC07 $noname  C1 10uF {Lib=C}
+  (    1 N-000064 )
+  (    2 /GND_IN )
+ )
+ ( /4EDED492 $noname  L1 47uH {Lib=INDUCTOR}
+  (    1 N-000111 )
+  (    2 N-000064 )
+ )
+ ( /4EDED486 $noname  L2 47uH {Lib=INDUCTOR}
+  (    1 N-000063 )
+  (    2 N-000055 )
+ )
+ ( /4EDD99E3 $noname  U1 5V_to_9V {Lib=SIP7_ISOLATOR}
+  (    1 N-000111 )
+  (    2 /GND_IN )
+  (    5 /GND_ISO )
+  (    6 ? )
+  (    7 N-000055 )
+ )
+ ( /4EDD966E $noname  C3 1uF {Lib=C}
+  (    1 /5V_IN )
+  (    2 /GND_IN )
+ )
+ ( /4EDD966C $noname  C6 0.1uF {Lib=C}
+  (    1 /5V_IN )
+  (    2 /GND_IN )
+ )
+ ( /4EDD9667 $noname  C12 1uF {Lib=C}
+  (    1 /VCC_ISO )
+  (    2 /GND_ISO )
+ )
+ ( /4EDD9664 $noname  C9 0.1uF {Lib=C}
+  (    1 /VCC_ISO )
+  (    2 /GND_ISO )
+ )
+ ( /4EDD960D $noname  RP1 100 {Lib=R_PACK8}
+  (    1 ? )
+  (    2 /IN1 )
+  (    3 /IN2 )
+  (    4 /IN3 )
+  (    5 /IN4 )
+  (    6 /IN5 )
+  (    7 /IN6 )
+  (    8 ? )
+  (    9 ? )
+  (   10 N-000066 )
+  (   11 N-000067 )
+  (   12 N-000065 )
+  (   13 N-000068 )
+  (   14 N-000069 )
+  (   15 N-000070 )
+  (   16 ? )
+ )
+ ( /4EDD95EE $noname  RP4 100 {Lib=R_PACK8}
+  (    1 ? )
+  (    2 N-000071 )
+  (    3 N-000072 )
+  (    4 N-000073 )
+  (    5 N-000074 )
+  (    6 N-000075 )
+  (    7 N-000076 )
+  (    8 ? )
+  (    9 ? )
+  (   10 /OUT6 )
+  (   11 /OUT5 )
+  (   12 /OUT4 )
+  (   13 /OUT3 )
+  (   14 /OUT2 )
+  (   15 /OUT1 )
+  (   16 ? )
+ )
+ ( /4EDD95A2 $noname  U2 SI8660 {Lib=SI8660}
+  (    1 /5V_IN )
+  (    2 N-000070 )
+  (    3 N-000069 )
+  (    4 N-000068 )
+  (    5 N-000065 )
+  (    6 N-000067 )
+  (    7 N-000066 )
+  (    8 /GND_IN )
+  (    9 /GND_ISO )
+  (   10 N-000076 )
+  (   11 N-000075 )
+  (   12 N-000074 )
+  (   13 N-000073 )
+  (   14 N-000072 )
+  (   15 N-000071 )
+  (   16 /VCC_ISO )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C22
+ SM*
+ C?
+ C1-1
+$endlist
+$component C24
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C23
+ SM*
+ C?
+ C1-1
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/IN7" "IN7"
+ RP2 2
+ RR2 2
+ P1 9
+Net 2 "/OUT14" "OUT14"
+ P1 16
+ RP3 3
+Net 3 "/OUT13" "OUT13"
+ P1 15
+ RP3 2
+Net 4 "/IN12" "IN12"
+ RR2 7
+ RP2 7
+ P1 14
+Net 5 "/IN11" "IN11"
+ P1 13
+ RR2 4
+ RP2 6
+Net 6 "/IN10" "IN10"
+ RR2 8
+ RP2 5
+ P1 12
+Net 7 "/IN9" "IN9"
+ RR2 3
+ P1 11
+ RP2 4
+Net 8 "/IN5" "IN5"
+ RR1 4
+ P1 7
+ RP1 6
+Net 9 "/IN6" "IN6"
+ RR1 7
+ RP1 7
+ P1 8
+Net 10 "/IN8" "IN8"
+ RP2 3
+ RR2 9
+ P1 10
+Net 11 "/IN4" "IN4"
+ RR1 8
+ P1 6
+ RP1 5
+Net 12 "/IN3" "IN3"
+ RR1 3
+ RP1 4
+ P1 5
+Net 13 "/IN1" "IN1"
+ P1 3
+ RP1 2
+ RR1 2
+Net 14 "/IN2" "IN2"
+ RR1 9
+ P1 4
+ RP1 3
+Net 16 "/OUT16" "OUT16"
+ P1 18
+ RP3 5
+Net 17 "/OUT17" "OUT17"
+ RP3 6
+ P1 19
+Net 18 "/OUT18" "OUT18"
+ P1 20
+ RP3 7
+Net 22 "/OUT15" "OUT15"
+ P1 17
+ RP3 4
+Net 25 "/IN18" "IN18"
+ RP6 10
+ P5 20
+ RR3 7
+Net 26 "/IN17" "IN17"
+ P5 19
+ RR3 4
+ RP6 11
+Net 27 "/IN16" "IN16"
+ RP6 12
+ P5 18
+ RR3 8
+Net 30 "/VCC_ISO" "VCC_ISO"
+ C14 1
+ C11 1
+ C9 1
+ U2 16
+ U4 1
+ C12 1
+ P4 2
+ C13 1
+ C10 1
+ U3 16
+ P5 2
+ P6 2
+Net 31 "/GND_ISO" "GND_ISO"
+ C13 2
+ C10 2
+ U6 9
+ U4 8
+ U3 9
+ U6 4
+ C14 2
+ C23 2
+ R4 2
+ C20 2
+ C18 2
+ C24 2
+ U2 9
+ C12 2
+ U1 5
+ P5 1
+ U5 9
+ C9 2
+ U5 4
+ C17 2
+ C16 2
+ C15 2
+ P4 1
+ C19 2
+ R2 2
+ C11 2
+Net 32 "" ""
+ R2 1
+ R1 2
+ U5 2
+ C21 2
+Net 35 "/5V_IN" "5V_IN"
+ U3 1
+ P2 1
+ U2 1
+ C7 1
+ C4 1
+ U4 16
+ C6 1
+ C5 1
+ C8 1
+ P1 2
+ C3 1
+Net 36 "/9V_ISO" "9V_ISO"
+ C18 1
+ P3 2
+ U6 5
+ U6 8
+ U5 8
+ U5 5
+ C17 1
+Net 37 "" ""
+ C19 1
+ U5 6
+Net 38 "/5V_ISO" "5V_ISO"
+ R1 1
+ P4 3
+ P6 1
+ C23 1
+ C21 1
+ U5 1
+Net 39 "/3V3_ISO" "3V3_ISO"
+ P4 4
+ C24 1
+ R3 1
+ P6 3
+ C22 1
+ U6 1
+Net 40 "/OUT6" "OUT6"
+ RP4 10
+ P5 8
+Net 41 "/OUT12" "OUT12"
+ RP5 10
+ P5 14
+Net 42 "/OUT11" "OUT11"
+ RP5 11
+ P5 13
+Net 43 "/OUT10" "OUT10"
+ P5 12
+ RP5 12
+Net 44 "/OUT9" "OUT9"
+ P5 11
+ RP5 13
+Net 45 "/OUT8" "OUT8"
+ P5 10
+ RP5 14
+Net 46 "/OUT7" "OUT7"
+ P5 9
+ RP5 15
+Net 47 "/IN15" "IN15"
+ P5 17
+ RR3 3
+ RP6 13
+Net 48 "/OUT5" "OUT5"
+ RP4 11
+ P5 7
+Net 49 "/OUT4" "OUT4"
+ RP4 12
+ P5 6
+Net 50 "/OUT3" "OUT3"
+ RP4 13
+ P5 5
+Net 51 "/OUT1" "OUT1"
+ P5 3
+ RP4 15
+Net 52 "/OUT2" "OUT2"
+ P5 4
+ RP4 14
+Net 55 "" ""
+ L2 2
+ U1 7
+Net 63 "" ""
+ C15 1
+ P3 1
+ L2 1
+ C16 1
+Net 64 "" ""
+ C1 1
+ C2 1
+ L1 2
+ P2 2
+Net 65 "" ""
+ RP1 12
+ U2 5
+Net 66 "" ""
+ RP1 10
+ U2 7
+Net 67 "" ""
+ U2 6
+ RP1 11
+Net 68 "" ""
+ RP1 13
+ U2 4
+Net 69 "" ""
+ U2 3
+ RP1 14
+Net 70 "" ""
+ U2 2
+ RP1 15
+Net 71 "" ""
+ U2 15
+ RP4 2
+Net 72 "" ""
+ RP4 3
+ U2 14
+Net 73 "" ""
+ RP4 4
+ U2 13
+Net 74 "" ""
+ U2 12
+ RP4 5
+Net 75 "" ""
+ U2 11
+ RP4 6
+Net 76 "" ""
+ U2 10
+ RP4 7
+Net 77 "" ""
+ U3 14
+ RP5 3
+Net 79 "" ""
+ RP5 2
+ U3 15
+Net 80 "" ""
+ U3 13
+ RP5 4
+Net 81 "" ""
+ U3 12
+ RP5 5
+Net 82 "" ""
+ RP5 6
+ U3 11
+Net 83 "" ""
+ U3 10
+ RP5 7
+Net 86 "" ""
+ U4 10
+ RP3 15
+Net 87 "/IN14" "IN14"
+ P5 16
+ RR3 9
+ RP6 14
+Net 88 "/IN13" "IN13"
+ P5 15
+ RP6 15
+ RR3 2
+Net 89 "" ""
+ RP6 7
+ U4 2
+Net 90 "" ""
+ U4 3
+ RP6 6
+Net 91 "" ""
+ RP6 5
+ U4 4
+Net 92 "" ""
+ RP6 4
+ U4 5
+Net 93 "" ""
+ RP6 3
+ U4 6
+Net 94 "" ""
+ RP6 2
+ U4 7
+Net 96 "" ""
+ U4 11
+ RP3 14
+Net 97 "" ""
+ U4 12
+ RP3 13
+Net 98 "" ""
+ U4 13
+ RP3 12
+Net 99 "" ""
+ RP3 11
+ U4 14
+Net 100 "" ""
+ U4 15
+ RP3 10
+Net 105 "" ""
+ U3 4
+ RP2 13
+Net 106 "" ""
+ RP2 10
+ U3 7
+Net 107 "" ""
+ U3 6
+ RP2 11
+Net 108 "" ""
+ RP2 12
+ U3 5
+Net 109 "" ""
+ RP2 14
+ U3 3
+Net 110 "" ""
+ RP2 15
+ U3 2
+Net 111 "" ""
+ U1 1
+ L1 1
+Net 112 "/GND_IN" "GND_IN"
+ C2 2
+ C1 2
+ C3 2
+ P1 1
+ C6 2
+ U1 2
+ U3 8
+ C8 2
+ U4 9
+ RR1 10
+ RR2 5
+ U2 8
+ RR1 5
+ RR3 5
+ RR3 10
+ C5 2
+ C4 2
+ C7 2
+ RR2 10
+Net 118 "" ""
+ U6 6
+ C20 1
+Net 122 "" ""
+ R3 2
+ R4 1
+ U6 2
+ C22 2
+}
+#End
