@@ -1,4 +1,4 @@
-update=Tue 06 Dec 2011 03:53:58 AM UTC
+update=Thu 08 Dec 2011 12:44:46 AM UTC
 version=1
 last_client=eeschema
 [cvpcb]
@@ -142,3 +142,5 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=isolators
+LibName32=regulators
+LibName33=resistorarrays
