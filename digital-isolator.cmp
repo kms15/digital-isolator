@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Sat 10 Dec 2011 02:12:28 AM UTC
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Sun 11 Dec 2011 02:28:12 AM UTC
 
 BeginCmp
 TimeStamp = /4EDEDC07;
@@ -256,70 +256,70 @@ BeginCmp
 TimeStamp = /4EDD960D;
 Reference = RP1;
 ValeurCmp = 100;
-IdModule  = ;
+IdModule  = CN1J8xxxxxxx;
 EndCmp
 
 BeginCmp
 TimeStamp = /4EDEDFAD;
 Reference = RP2;
 ValeurCmp = 100;
-IdModule  = ;
+IdModule  = CN1J8xxxxxxx;
 EndCmp
 
 BeginCmp
 TimeStamp = /4EDEDFC1;
 Reference = RP3;
 ValeurCmp = 100;
-IdModule  = ;
+IdModule  = CN1J8xxxxxxx;
 EndCmp
 
 BeginCmp
 TimeStamp = /4EDD95EE;
 Reference = RP4;
 ValeurCmp = 100;
-IdModule  = ;
+IdModule  = CN1J8xxxxxxx;
 EndCmp
 
 BeginCmp
 TimeStamp = /4EDEDFAE;
 Reference = RP5;
 ValeurCmp = 100;
-IdModule  = ;
+IdModule  = CN1J8xxxxxxx;
 EndCmp
 
 BeginCmp
 TimeStamp = /4EDEDFC0;
 Reference = RP6;
 ValeurCmp = 100;
-IdModule  = ;
+IdModule  = CN1J8xxxxxxx;
 EndCmp
 
 BeginCmp
 TimeStamp = /4EE0143C;
 Reference = RR1;
 ValeurCmp = 100k;
-IdModule  = ;
+IdModule  = EXBA10xxxxx;
 EndCmp
 
 BeginCmp
 TimeStamp = /4EE01536;
 Reference = RR2;
 ValeurCmp = 100k;
-IdModule  = ;
+IdModule  = EXBA10xxxxx;
 EndCmp
 
 BeginCmp
 TimeStamp = /4EE015D2;
 Reference = RR3;
 ValeurCmp = 100k;
-IdModule  = ;
+IdModule  = EXBA10xxxxx;
 EndCmp
 
 BeginCmp
 TimeStamp = /4EDD99E3;
 Reference = U1;
 ValeurCmp = 5V_to_9V;
-IdModule  = ;
+IdModule  = SIP7_ISOLATOR;
 EndCmp
 
 BeginCmp

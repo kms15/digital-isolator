@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sat 10 Dec 2011 02:12:28 AM UTC
+# EESchema Netlist Version 1.1 created  Sun 11 Dec 2011 02:28:12 AM UTC
 (
  ( /4EDEDC07 SM1210 C1 10uF
   ( 1 N-000064 )
@@ -183,7 +183,7 @@
   ( 1 N-000122 )
   ( 2 /GND_ISO )
  )
- ( /4EDD960D $noname$ RP1 100
+ ( /4EDD960D CN1J8xxxxxxx RP1 100
   ( 1 ? )
   ( 2 /IN1 )
   ( 3 /IN2 )
@@ -201,7 +201,7 @@
   ( 15 N-000070 )
   ( 16 ? )
  )
- ( /4EDEDFAD $noname$ RP2 100
+ ( /4EDEDFAD CN1J8xxxxxxx RP2 100
   ( 1 ? )
   ( 2 /IN7 )
   ( 3 /IN8 )
@@ -219,7 +219,7 @@
   ( 15 N-000110 )
   ( 16 ? )
  )
- ( /4EDEDFC1 $noname$ RP3 100
+ ( /4EDEDFC1 CN1J8xxxxxxx RP3 100
   ( 1 ? )
   ( 2 /OUT13 )
   ( 3 /OUT14 )
@@ -237,7 +237,7 @@
   ( 15 N-000086 )
   ( 16 ? )
  )
- ( /4EDD95EE $noname$ RP4 100
+ ( /4EDD95EE CN1J8xxxxxxx RP4 100
   ( 1 ? )
   ( 2 N-000071 )
   ( 3 N-000072 )
@@ -255,7 +255,7 @@
   ( 15 /OUT1 )
   ( 16 ? )
  )
- ( /4EDEDFAE $noname$ RP5 100
+ ( /4EDEDFAE CN1J8xxxxxxx RP5 100
   ( 1 ? )
   ( 2 N-000079 )
   ( 3 N-000077 )
@@ -273,7 +273,7 @@
   ( 15 /OUT7 )
   ( 16 ? )
  )
- ( /4EDEDFC0 $noname$ RP6 100
+ ( /4EDEDFC0 CN1J8xxxxxxx RP6 100
   ( 1 ? )
   ( 2 N-000094 )
   ( 3 N-000093 )
@@ -291,7 +291,7 @@
   ( 15 /IN13 )
   ( 16 ? )
  )
- ( /4EE0143C $noname$ RR1 100k
+ ( /4EE0143C EXBA10xxxxx RR1 100k
   ( 1 ? )
   ( 2 /IN1 )
   ( 3 /IN3 )
@@ -303,7 +303,7 @@
   ( 9 /IN2 )
   ( 10 /GND_IN )
  )
- ( /4EE01536 $noname$ RR2 100k
+ ( /4EE01536 EXBA10xxxxx RR2 100k
   ( 1 ? )
   ( 2 /IN7 )
   ( 3 /IN9 )
@@ -315,7 +315,7 @@
   ( 9 /IN8 )
   ( 10 /GND_IN )
  )
- ( /4EE015D2 $noname$ RR3 100k
+ ( /4EE015D2 EXBA10xxxxx RR3 100k
   ( 1 ? )
   ( 2 /IN13 )
   ( 3 /IN15 )
@@ -327,7 +327,7 @@
   ( 9 /IN14 )
   ( 10 /GND_IN )
  )
- ( /4EDD99E3 $noname$ U1 5V_to_9V
+ ( /4EDD99E3 SIP7_ISOLATOR U1 5V_to_9V
   ( 1 N-000111 )
   ( 2 /GND_IN )
   ( 5 /GND_ISO )

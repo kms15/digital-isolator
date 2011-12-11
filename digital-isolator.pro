@@ -1,6 +1,6 @@
-update=Sat 10 Dec 2011 02:07:25 AM UTC
+update=Sun 11 Dec 2011 02:25:47 AM UTC
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -68,11 +68,16 @@ LibName30=valves
 LibName31=isolators
 LibName32=regulators
 LibName33=resistorarrays
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=0
-PadDimH=335
-PadDimV=787
+PadDrlX=394
+PadDimH=591
+PadDimV=591
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -86,6 +91,7 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=
 [pcbnew/libraries]
+LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -98,9 +104,5 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=MSOP8_PowerPad
 LibName12=SIL-20
-LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName13=resistorarrays
+LibName14=SIP7_ISOLATOR
