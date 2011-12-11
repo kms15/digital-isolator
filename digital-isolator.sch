@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 11 Dec 2011 02:31:00 AM UTC
+EESchema Schematic File Version 2  date Sun 11 Dec 2011 05:07:47 AM UTC
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "Digital Isolator"
-Date "8 dec 2011"
+Date "11 dec 2011"
 Rev "0"
 Comp "Kendrick Shaw"
 Comment1 ""
@@ -47,9 +47,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	2000 6450 2000 6900
+Wire Wire Line
+	2000 6900 1850 6900
 Connection ~ 5600 2300
 Wire Wire Line
-	5600 2300 5600 2250
+	5600 2250 5600 2300
 Wire Wire Line
 	1900 8600 3050 8600
 Wire Wire Line
@@ -69,10 +73,10 @@ Connection ~ 9950 5200
 Wire Wire Line
 	9950 5200 9950 5100
 Wire Wire Line
-	12100 5100 12100 5200
+	12100 5200 12100 5100
 Connection ~ 12100 4550
 Wire Wire Line
-	12100 4500 12100 4600
+	12100 4600 12100 4500
 Connection ~ 11750 3950
 Wire Wire Line
 	11750 4050 11750 3950
@@ -81,21 +85,19 @@ Wire Wire Line
 	12550 3950 12550 4000
 Connection ~ 9600 4450
 Wire Wire Line
-	10250 4450 9050 4450
+	9050 4450 10250 4450
 Wire Wire Line
 	9950 4700 9950 4650
 Wire Wire Line
 	9950 4650 10250 4650
-Connection ~ 1850 4450
-Wire Wire Line
-	1850 4200 1850 4450
+Connection ~ 2000 6450
 Connection ~ 12600 2700
 Wire Wire Line
 	12600 2650 12600 2700
 Wire Notes Line
 	6350 9800 6350 11100
 Wire Wire Line
-	7750 2300 8400 2300
+	8400 2300 7750 2300
 Wire Wire Line
 	3350 2800 5650 2800
 Wire Notes Line
@@ -143,7 +145,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 4750 1800 4750
 Wire Wire Line
-	1800 4550 2400 4550
+	2400 6550 1800 6550
 Wire Wire Line
 	8200 10350 7100 10350
 Wire Wire Line
@@ -343,7 +345,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 2300 7150 2300
 Wire Wire Line
-	4850 2300 4850 2350
+	4850 2350 4850 2300
 Wire Wire Line
 	4550 2800 4550 2750
 Wire Wire Line
@@ -417,7 +419,7 @@ Wire Wire Line
 	7000 4000 8200 4000
 Connection ~ 7650 4000
 Wire Wire Line
-	5650 2300 5550 2300
+	5550 2300 5650 2300
 Wire Wire Line
 	4850 2750 4850 2800
 Connection ~ 4850 2800
@@ -455,7 +457,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 10350 4500 10350
 Wire Wire Line
-	1800 4450 2400 4450
+	1800 6450 2400 6450
 Wire Wire Line
 	2400 4650 1800 4650
 Wire Wire Line
@@ -473,9 +475,9 @@ Wire Wire Line
 Wire Wire Line
 	14250 5400 14700 5400
 Wire Wire Line
-	14700 5200 14250 5200
+	14700 7200 14250 7200
 Wire Wire Line
-	14700 5300 14250 5300
+	14700 7300 14250 7300
 Wire Wire Line
 	14250 5500 14700 5500
 Wire Wire Line
@@ -521,19 +523,17 @@ Wire Notes Line
 Wire Notes Line
 	6350 3550 6350 2900
 Wire Wire Line
-	4100 2300 4950 2300
+	4950 2300 4100 2300
 Wire Wire Line
 	7050 2800 9450 2800
 Wire Wire Line
-	9450 2300 8600 2300
+	8600 2300 9450 2300
 Wire Notes Line
 	6350 1550 6350 600 
 Wire Wire Line
 	8900 2250 8900 2300
 Connection ~ 8900 2300
-Wire Wire Line
-	2000 4350 2000 4550
-Connection ~ 2000 4550
+Connection ~ 2100 6550
 Wire Wire Line
 	10150 4450 10150 4750
 Wire Wire Line
@@ -549,7 +549,7 @@ Wire Wire Line
 	12100 3950 12100 4000
 Connection ~ 12100 3950
 Wire Wire Line
-	12100 4550 11550 4550
+	11550 4550 12100 4550
 Wire Wire Line
 	11750 4450 11750 4550
 Connection ~ 11750 4550
@@ -593,7 +593,7 @@ Wire Wire Line
 	11550 6400 11550 6900
 Connection ~ 10150 6900
 Wire Wire Line
-	9600 6950 9600 6900
+	9600 6900 9600 6950
 Wire Wire Line
 	10250 7200 10150 7200
 Wire Wire Line
@@ -603,7 +603,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 7100 9950 7150
 Wire Wire Line
-	9050 6900 10250 6900
+	10250 6900 9050 6900
 Connection ~ 9600 6900
 Wire Wire Line
 	12550 6400 12550 6450
@@ -612,7 +612,7 @@ Wire Wire Line
 	11750 6500 11750 6400
 Connection ~ 11750 6400
 Wire Wire Line
-	12100 7050 12100 6950
+	12100 6950 12100 7050
 Connection ~ 12100 7000
 Wire Wire Line
 	12100 7650 12100 7550
@@ -673,6 +673,10 @@ Wire Wire Line
 	10650 9350 10650 10000
 Wire Wire Line
 	10650 10000 9500 10000
+Wire Wire Line
+	2250 6900 2100 6900
+Wire Wire Line
+	2100 6900 2100 6550
 $Comp
 L PWR_FLAG #FLG01
 U 1 1 4EE0232E
@@ -709,7 +713,7 @@ IN18
 NoConn ~ 10550 9750
 NoConn ~ 9950 9350
 Text Label 9500 10000 0    60   ~ 0
-GND_IN
+GND_ISO
 $Comp
 L R_BUS8 RR2
 U 1 1 4EE01536
@@ -929,19 +933,19 @@ Text Notes 10450 3800 0    60   ~ 0
 $Comp
 L PWR_FLAG #FLG02
 U 1 1 4EDFD1D7
-P 2000 4350
-F 0 "#FLG02" H 2000 4620 30  0001 C CNN
-F 1 "PWR_FLAG" H 2000 4580 30  0000 C CNN
-	1    2000 4350
+P 2250 6900
+F 0 "#FLG02" H 2250 7170 30  0001 C CNN
+F 1 "PWR_FLAG" H 2250 7130 30  0000 C CNN
+	1    2250 6900
 	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG03
 U 1 1 4EDFD1D1
-P 1850 4200
-F 0 "#FLG03" H 1850 4470 30  0001 C CNN
-F 1 "PWR_FLAG" H 1850 4430 30  0000 C CNN
-	1    1850 4200
+P 1850 6900
+F 0 "#FLG03" H 1850 7170 30  0001 C CNN
+F 1 "PWR_FLAG" H 1850 7130 30  0000 C CNN
+	1    1850 6900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1036,18 +1040,18 @@ Text Label 14250 5500 0    60   ~ 0
 OUT2
 Text Label 14250 5400 0    60   ~ 0
 OUT1
-Text Label 14250 5300 0    60   ~ 0
+Text Label 14250 7300 0    60   ~ 0
 VCC_ISO
-Text Label 14250 5200 0    60   ~ 0
+Text Label 14250 7200 0    60   ~ 0
 GND_ISO
 $Comp
 L CONN_20 P5
 U 1 1 4EDEE5CB
-P 15050 6150
-F 0 "P5" V 15000 6150 60  0000 C CNN
-F 1 "CONN_20" V 15100 6150 60  0000 C CNN
-F 2 "SIL-20" H 15050 6150 60  0001 C CNN
-	1    15050 6150
+P 15050 6350
+F 0 "P5" V 15000 6350 60  0000 C CNN
+F 1 "CONN_20" V 15100 6350 60  0000 C CNN
+F 2 "SIL-20" H 15050 6350 60  0001 C CNN
+	1    15050 6350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1116,18 +1120,18 @@ Text Label 2400 4750 2    60   ~ 0
 IN2
 Text Label 2400 4650 2    60   ~ 0
 IN1
-Text Label 2400 4550 2    60   ~ 0
+Text Label 2400 6550 2    60   ~ 0
 5V_IN
-Text Label 2400 4450 2    60   ~ 0
+Text Label 2400 6450 2    60   ~ 0
 GND_IN
 $Comp
 L CONN_20 P1
 U 1 1 4EDEE1F1
-P 1450 5400
-F 0 "P1" V 1400 5400 60  0000 C CNN
-F 1 "CONN_20" V 1500 5400 60  0000 C CNN
-F 2 "SIL-20" H 1450 5400 60  0001 C CNN
-	1    1450 5400
+P 1450 5600
+F 0 "P1" V 1400 5600 60  0000 C CNN
+F 1 "CONN_20" V 1500 5600 60  0000 C CNN
+F 2 "SIL-20" H 1450 5600 60  0001 C CNN
+	1    1450 5600
 	-1   0    0    -1  
 $EndComp
 Text Notes 5950 8450 0    60   ~ 0

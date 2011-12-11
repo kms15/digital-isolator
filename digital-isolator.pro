@@ -1,4 +1,4 @@
-update=Sun 11 Dec 2011 02:25:47 AM UTC
+update=Sun 11 Dec 2011 02:42:37 AM UTC
 version=1
 last_client=pcbnew
 [general]
@@ -89,7 +89,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=
+LastNetListRead=digital-isolator.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -106,3 +106,4 @@ LibName11=MSOP8_PowerPad
 LibName12=SIL-20
 LibName13=resistorarrays
 LibName14=SIP7_ISOLATOR
+LibName15=smt_inductors
