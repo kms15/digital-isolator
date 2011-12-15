@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 11 Dec 2011 05:07:47 AM UTC
+EESchema Schematic File Version 2  date Thu 15 Dec 2011 03:40:23 AM UTC
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "Digital Isolator"
-Date "11 dec 2011"
+Date "15 dec 2011"
 Rev "0"
 Comp "Kendrick Shaw"
 Comment1 ""
@@ -47,6 +47,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 7900 2300 0    30   ~ 0
+9V_iso_postfilter
+Text Label 7100 2300 0    30   ~ 0
+9V_iso_prefilter
+Text Label 5600 2300 0    30   ~ 0
+5V_in_postfilter
+Text Label 4350 2300 0    30   ~ 0
+5V_in_prefilter
 Wire Wire Line
 	2000 6450 2000 6900
 Wire Wire Line
@@ -475,9 +483,9 @@ Wire Wire Line
 Wire Wire Line
 	14250 5400 14700 5400
 Wire Wire Line
-	14700 7200 14250 7200
-Wire Wire Line
 	14700 7300 14250 7300
+Wire Wire Line
+	14700 7200 14250 7200
 Wire Wire Line
 	14250 5500 14700 5500
 Wire Wire Line
@@ -511,13 +519,13 @@ Wire Wire Line
 Wire Wire Line
 	14250 6700 14700 6700
 Wire Wire Line
-	14700 4350 14250 4350
+	14700 4450 14250 4450
 Wire Wire Line
 	14700 4250 14250 4250
 Wire Wire Line
-	14700 4450 14250 4450
-Wire Wire Line
 	14700 4550 14250 4550
+Wire Wire Line
+	14700 4350 14250 4350
 Wire Notes Line
 	6350 6350 6350 5650
 Wire Notes Line
@@ -996,13 +1004,13 @@ Text Notes 2350 800  0    90   ~ 0
 Non-isolated circuits
 Text Notes 14250 3750 0    60   ~ 0
 Isolated connections
-Text Label 14250 4550 0    60   ~ 0
+Text Label 14250 4350 0    60   ~ 0
 3V3_ISO
-Text Label 14250 4450 0    60   ~ 0
+Text Label 14250 4550 0    60   ~ 0
 5V_ISO
 Text Label 14250 4250 0    60   ~ 0
 GND_ISO
-Text Label 14250 4350 0    60   ~ 0
+Text Label 14250 4450 0    60   ~ 0
 VCC_ISO
 Text Label 14250 7100 0    60   ~ 0
 IN18
@@ -1040,9 +1048,9 @@ Text Label 14250 5500 0    60   ~ 0
 OUT2
 Text Label 14250 5400 0    60   ~ 0
 OUT1
-Text Label 14250 7300 0    60   ~ 0
-VCC_ISO
 Text Label 14250 7200 0    60   ~ 0
+VCC_ISO
+Text Label 14250 7300 0    60   ~ 0
 GND_ISO
 $Comp
 L CONN_20 P5
@@ -1082,7 +1090,7 @@ F 0 "P6" V 12200 2200 50  0000 C CNN
 F 1 "CONN_3" V 12300 2200 40  0000 C CNN
 F 2 "SIL-3" H 12250 2200 60  0001 C CNN
 	1    12250 2200
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Text Label 2400 5950 2    60   ~ 0
 OUT14
@@ -1120,9 +1128,9 @@ Text Label 2400 4750 2    60   ~ 0
 IN2
 Text Label 2400 4650 2    60   ~ 0
 IN1
-Text Label 2400 6550 2    60   ~ 0
-5V_IN
 Text Label 2400 6450 2    60   ~ 0
+5V_IN
+Text Label 2400 6550 2    60   ~ 0
 GND_IN
 $Comp
 L CONN_20 P1
