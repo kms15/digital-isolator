@@ -1,0 +1,3 @@
+[submodule "Open-Source-Hardware-Logos-for-Kicad"]
+	path = Open-Source-Hardware-Logos-for-Kicad
+	url = git://github.com/wayneandlayne/Open-Source-Hardware-Logos-for-Kicad.git
