@@ -1,4 +1,4 @@
-update=Sun 11 Dec 2011 02:42:37 AM UTC
+update=Fri 16 Dec 2011 04:45:17 AM UTC
 version=1
 last_client=pcbnew
 [general]
@@ -107,3 +107,4 @@ LibName12=SIL-20
 LibName13=resistorarrays
 LibName14=SIP7_ISOLATOR
 LibName15=smt_inductors
+LibName16=Open-Source-Hardware-Logos-for-Kicad/OPENHARDWARE
