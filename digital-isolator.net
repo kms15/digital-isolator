@@ -1,40 +1,40 @@
-# EESchema Netlist Version 1.1 created  Thu 15 Dec 2011 03:40:13 AM UTC
+# EESchema Netlist Version 1.1 created  Fri 16 Dec 2011 02:31:54 AM UTC
 (
  ( /4EE015D2 EXBA10xxxxx  RR3 100k {Lib=R_BUS8}
   (    1 ? )
   (    2 /IN13 )
   (    3 /IN15 )
   (    4 /IN17 )
-  (    5 /GND_ISO )
+  (    5 /VCC_ISO )
   (    6 ? )
   (    7 /IN18 )
   (    8 /IN16 )
   (    9 /IN14 )
-  (   10 /GND_ISO )
+  (   10 /VCC_ISO )
  )
  ( /4EE01536 EXBA10xxxxx  RR2 100k {Lib=R_BUS8}
   (    1 ? )
   (    2 /IN7 )
   (    3 /IN9 )
   (    4 /IN11 )
-  (    5 /GND_IN )
+  (    5 /5V_IN )
   (    6 ? )
   (    7 /IN12 )
   (    8 /IN10 )
   (    9 /IN8 )
-  (   10 /GND_IN )
+  (   10 /5V_IN )
  )
  ( /4EE0143C EXBA10xxxxx  RR1 100k {Lib=R_BUS8}
   (    1 ? )
   (    2 /IN1 )
   (    3 /IN3 )
   (    4 /IN5 )
-  (    5 /GND_IN )
+  (    5 /5V_IN )
   (    6 ? )
   (    7 /IN6 )
   (    8 /IN4 )
   (    9 /IN2 )
-  (   10 /GND_IN )
+  (   10 /5V_IN )
  )
  ( /4EDFF93E MSOP8_PowerPad  U6 TPS7A49XX {Lib=TPS7A49XX}
   (    1 /3V3_ISO )
@@ -574,87 +574,87 @@ Net 4 "/OUT15" "OUT15"
  RP3 4
  P1 15
 Net 5 "/OUT16" "OUT16"
- P1 16
  RP3 5
+ P1 16
 Net 6 "/IN12" "IN12"
+ P1 12
  RR2 7
  RP2 7
- P1 12
 Net 7 "/IN11" "IN11"
- RR2 4
  RP2 6
+ RR2 4
  P1 11
 Net 8 "/IN10" "IN10"
- RR2 8
  RP2 5
  P1 10
+ RR2 8
 Net 9 "/IN9" "IN9"
- RR2 3
  RP2 4
  P1 9
+ RR2 3
 Net 10 "/IN6" "IN6"
  RR1 7
  RP1 7
  P1 6
 Net 11 "/IN7" "IN7"
  RR2 2
- RP2 2
  P1 7
+ RP2 2
 Net 12 "/IN8" "IN8"
+ P1 8
  RR2 9
  RP2 3
- P1 8
 Net 13 "/IN4" "IN4"
- RP1 5
  RR1 8
+ RP1 5
  P1 4
 Net 14 "/IN3" "IN3"
  RR1 3
- RP1 4
  P1 3
+ RP1 4
 Net 15 "/IN1" "IN1"
  P1 1
- RP1 2
  RR1 2
+ RP1 2
 Net 16 "/IN2" "IN2"
- P1 2
  RR1 9
  RP1 3
+ P1 2
 Net 17 "/OUT17" "OUT17"
  P1 17
  RP3 6
 Net 18 "/OUT18" "OUT18"
- RP3 7
  P1 18
+ RP3 7
 Net 25 "/IN18" "IN18"
  P5 18
- RP6 10
  RR3 7
+ RP6 10
 Net 26 "/IN17" "IN17"
  P5 17
- RR3 4
  RP6 11
+ RR3 4
 Net 29 "/VCC_ISO" "VCC_ISO"
- C14 1
- U4 1
- U2 16
  U3 16
  C9 1
  C12 1
  P6 2
- P5 19
- P4 3
- C11 1
- C13 1
+ RR3 10
  C10 1
+ RR3 5
+ U2 16
+ C14 1
+ C11 1
+ P4 3
+ U4 1
+ P5 19
+ C13 1
 Net 30 "/GND_ISO" "GND_ISO"
- C10 2
+ U4 8
  U3 9
  C13 2
- U4 8
+ C10 2
  U6 4
- RR3 10
- RR3 5
  U6 9
  U5 9
  R4 2
@@ -875,50 +875,50 @@ Net 109 "" ""
  U3 2
  RP2 15
 Net 110 "/5V_IN" "5V_IN"
- C6 1
- U4 16
+ RR2 10
+ RR2 5
+ U3 1
+ U2 1
+ C5 1
+ C7 1
+ C8 1
  C4 1
  P1 19
- U2 1
- U3 1
- C5 1
+ U4 16
  P2 1
- C7 1
  C3 1
- C8 1
+ RR1 5
+ RR1 10
+ C6 1
 Net 111 "/9V_iso_prefilter" "9V_iso_prefilter"
- U1 7
  L2 2
+ U1 7
 Net 112 "/5V_in_postfilter" "5V_in_postfilter"
- L1 1
  U1 1
+ L1 1
 Net 113 "/GND_IN" "GND_IN"
  P1 20
  U3 8
- U4 9
- C5 2
- U1 2
- C4 2
  U2 8
- RR2 10
- RR2 5
- C6 2
- RR1 5
- RR1 10
- C3 2
- C7 2
- C2 2
- C1 2
+ U4 9
+ C4 2
+ U1 2
  C8 2
+ C1 2
+ C2 2
+ C6 2
+ C3 2
+ C5 2
+ C7 2
 Net 121 "" ""
- R4 1
  C22 2
- U6 2
  R3 2
+ R4 1
+ U6 2
 Net 122 "/9V_iso_postfilter" "9V_iso_postfilter"
- L2 1
- C15 1
- C16 1
  P3 1
+ C16 1
+ C15 1
+ L2 1
 }
 #End

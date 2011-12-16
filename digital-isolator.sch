@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 15 Dec 2011 03:40:23 AM UTC
+EESchema Schematic File Version 2  date Fri 16 Dec 2011 02:31:38 AM UTC
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "Digital Isolator"
-Date "15 dec 2011"
+Date "16 dec 2011"
 Rev "0"
 Comp "Kendrick Shaw"
 Comment1 ""
@@ -695,7 +695,7 @@ F 1 "PWR_FLAG" H 5600 2480 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 9700 9000 0    60   ~ 0
-Input pulldown resistors
+Input pull up resistors
 $Comp
 L R_BUS8 RR3
 U 1 1 4EE015D2
@@ -721,7 +721,7 @@ IN18
 NoConn ~ 10550 9750
 NoConn ~ 9950 9350
 Text Label 9500 10000 0    60   ~ 0
-GND_ISO
+VCC_ISO
 $Comp
 L R_BUS8 RR2
 U 1 1 4EE01536
@@ -747,9 +747,9 @@ IN12
 NoConn ~ 2950 9350
 NoConn ~ 2350 8950
 Text Label 1900 9600 0    60   ~ 0
-GND_IN
+5V_IN
 Text Label 1900 8600 0    60   ~ 0
-GND_IN
+5V_IN
 NoConn ~ 2350 7950
 NoConn ~ 2950 8350
 Text Label 3500 8250 2    60   ~ 0
@@ -775,7 +775,7 @@ F 2 "EXBA10xxxxx" H 2650 8150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 2100 7600 0    60   ~ 0
-Input pulldown resistors
+Input pullup resistors
 Text Notes 10450 6250 0    60   ~ 0
 3V3 power regulation
 $Comp
