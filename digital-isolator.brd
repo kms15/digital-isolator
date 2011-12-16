@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Fri 16 Dec 2011 03:14:59 AM UTC
+PCBNEW-BOARD Version 1 date Fri 16 Dec 2011 03:49:47 AM UTC
 
 # Created by Pcbnew(2011-05-25)-stable
 
@@ -9,12 +9,12 @@ Ly 1FFF8001
 EnabledLayers 1FFF8001
 Links 202
 NoConn 0
-Di 29060 9924 50474 39576
+Di 29060 9545 50474 39605
 Ndraw 12
 Ntrack 698
 Nzone 0
 BoardThickness 630
-Nmodule 51
+Nmodule 53
 Nnets 88
 $EndGENERAL
 
@@ -55,8 +55,8 @@ TextPcbSize 600 800
 EdgeModWidth 150
 TextModSize 600 600
 TextModWidth 120
-PadSize 276 315
-PadDrill 118
+PadSize 591 591
+PadDrill 394
 Pad2MaskClearance 100
 GridOrigin 30000 10000
 AuxiliaryAxisOrg 0 0
@@ -3698,6 +3698,44 @@ Of 0.000000 0.000000 0.001000
 Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  MSOP8_PowerPad
+$MODULE 1pin
+Po 48700 38175 0 15 00200000 4EEABD0B ~~
+Li 1pin
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 4EEABD0B
+AR 
+Op 0 0 0
+T0 0 -1200 400 400 0 100 N V 21 N "1PIN"
+T1 0 1100 400 400 0 100 N I 21 N "P***"
+DC 0 0 0 -900 150 21
+$PAD
+Sh "1" C 1600 1600 0 0 0
+Dr 1200 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  1pin
+$MODULE 1pin
+Po 32800 11075 0 15 00200000 4EEABD24 ~~
+Li 1pin
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 4EEABD24
+AR 
+Op 0 0 0
+T0 0 -1200 400 400 0 100 N V 21 N "1PIN"
+T1 0 1100 400 400 0 100 N I 21 N "P***"
+DC 0 0 0 -900 150 21
+$PAD
+Sh "1" C 1600 1600 0 0 0
+Dr 1200 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  1pin
 $DRAWSEGMENT
 Po 0 30000 39500 30000 10000 150
 De 28 0 900 0 0
