@@ -11,7 +11,8 @@ being.
 
 Status
 ======
-Schematic is complete, but the board layout has not been completed.  
+The initial design (version 0.0) is complete, and ready for a prototype to be 
+built.  
 
 
 Features
