@@ -16,3 +16,4 @@
       100,     6,  6.4x1.6mm,       CN1J8TTE101J, "RP1, RP2, RP3, RP4, RP5, RP6"
    SI8660,     3, WB-SOIC-16,      Si8660BD-B-IS, "U2, U3, U4"
 TPS7A49XX,     2, MSOP8-PwPd,      TPS7A4901DGNT, "U5, U6"
+   jumper,     3,     2.54mm,     969102-0000-DA, ""
