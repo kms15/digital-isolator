@@ -4,9 +4,21 @@ Digital Isolator
 
 This is a design for a board that provides isolated power and data connections
 between two circuits.  This might be useful as a way of getting rid of noise
-in a sensitive circuit, measuring a part of a circuit at a higher voltage,
-or providing an extra level of safety for a circuit connected to a human 
-being.  
+in a sensitive circuit, measuring a part of a circuit floating at a higher 
+voltage, or providing an extra level of safety for a circuit connected to a 
+human being.  
+
+
+License
+=======
+Copyright Kendrick Shaw 2011.
+
+This documentation describes Open Hardware and is licensed under the 
+CERN OHL v. 1.1 or later.  You may redistribute and modify this documentation 
+under the terms of the CERN OHL v.1.1 or later (http://ohwr.org/cernohl). This
+documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING
+OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
+Please see the CERN OHL v.1.1 or later for applicable conditions.
 
 
 Status
@@ -29,19 +41,21 @@ side.
 Data
 ----
 
-There are 12 data lines provided going to the isolated side and 6 data lines
+There are 12 data lines provided to the isolated side and 6 data lines
 from the isolated side.  The isolators are rated at up to 150 Mb/s.
 
 
 Isolation
 ---------
 
-The components provide 5 kV of standard isolation (and if the R05P209S/R8 is 
-used, they also provide reinforced isolation).  This device has not undergone
+The components provide 5 kV of standard isolation and the main board provides
+about 5mm of creepage and clearance.  This device has not undergone
 any sort of safety testing or regulatory approval, however, so it should be
 treated as a prototype and not used in safety-critical applications.
 
-Format and Licence
+
+Design File Format
 ==================
 
-All designs are in KiCad format, and are released under a GPLv3 license.  
+All designs are in KiCad format.  KiCad is a freely available open source EDA 
+design tool; for more information see  http://kicad.sourceforge.net .
