@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Sat 17 Dec 2011 07:27:07 PM UTC
+PCBNEW-BOARD Version 1 date Sat 17 Dec 2011 10:23:53 PM UTC
 
 # Created by Pcbnew(2011-05-25)-stable
 
@@ -57,7 +57,7 @@ TextModSize 600 600
 TextModWidth 120
 PadSize 591 591
 PadDrill 394
-Pad2MaskClearance 100
+Pad2MaskClearance 0
 GridOrigin 30000 10000
 AuxiliaryAxisOrg 0 0
 PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
@@ -1372,7 +1372,7 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  SO16W
 $MODULE SO16W
-Po 40000 13500 2700 15 4EEBF5D1 4EE41851 ~~
+Po 40000 13500 2700 15 4EED1676 4EE41851 ~~
 Li SO16W
 Cd Module CMS SOJ 16 pins tres large
 Kw CMS SOJ
