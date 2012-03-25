@@ -1,4 +1,4 @@
-update=Sat 17 Dec 2011 04:45:17 PM UTC
+update=Sun 25 Mar 2012 03:57:05 PM UTC
 version=1
 last_client=pcbnew
 [general]
@@ -75,9 +75,9 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=394
-PadDimH=591
-PadDimV=591
+PadDrlX=0
+PadDimH=394
+PadDimV=394
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -103,7 +103,9 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=MSOP8_PowerPad
-LibName12=SIL-20
-LibName13=resistorarrays
-LibName14=SIP7_ISOLATOR
-LibName15=smt_inductors
+LibName12=resistorarrays
+LibName13=SIP7_ISOLATOR
+LibName14=smt_inductors
+LibName15=PIN_ARRAY_20x1
+LibName16=PIN_ARRAY_4x1
+LibName17=fiducial_mark
