@@ -1,3 +1,3 @@
 If you are distributing a modified version of the project, please use this file
-to describe the dates and details of your modifications (as described in 
-section 3.3b of the CERN open hardware license).  
+to describe the dates and details of your modifications (as described in
+section 3.3b of the CERN open hardware license).
